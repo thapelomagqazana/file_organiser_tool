@@ -1,0 +1,14 @@
+# requirements.txt
+
+# Core dependencies
+click==7.1.2
+# Add other core dependencies as needed
+
+# Testing dependencies
+pytest==6.2.2
+behave==1.2.6
+# Add other testing dependencies as needed
+
+# Documentation dependencies
+Sphinx==3.5.3
+# Add other documentation dependencies as needed

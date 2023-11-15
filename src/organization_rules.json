@@ -1,0 +1,11 @@
+{
+    ".*\\.txt$": "TextFiles",
+    ".*\\.jpg$": "Images",
+    ".*\\.png$": "Images",
+    ".*\\.pdf$": "Documents",
+    ".*\\.epub$": "Documents",
+    ".*\\.pptx$": "Presentations",
+    ".*\\.mp4$": "Videos",
+    ".*": "Other"
+}
+

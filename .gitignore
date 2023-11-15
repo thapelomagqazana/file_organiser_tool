@@ -10,3 +10,4 @@ __pycache__/
 # Dependency directories
 env/
 lib/
+.vscode/

@@ -13,7 +13,7 @@ from unittest.mock import patch
 class TestFileOrganizer(unittest.TestCase):
     def test_organize_files(self):
         # Mock input to simulate user input during testing
-        with patch("builtins.input", side_effect=["test_source", "test_destination", "test_rules.json"]):
+        with patch("builtins.input", side_effect=["test_source", "test_destination", "y"]):
             file_organizer = FileOrganizer()
             # Add additional mock data for source and destination directories
             with patch("os.listdir", return_value=["file.txt", "image.jpg", "document.docx"]):

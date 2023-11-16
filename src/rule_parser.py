@@ -23,7 +23,7 @@ class RuleParser:
         """
 
         try:
-            rules_file_path = "/home/thapelo/file_organizer_tool/src/organization_rules.json"
+            rules_file_path = "src/organization_rules.json"
             with open(rules_file_path, "r") as file:
                 rules = json.load(file)
             return rules

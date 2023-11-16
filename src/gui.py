@@ -2,7 +2,6 @@ import os
 import shutil
 import tkinter as tk
 from tkinter import filedialog, messagebox
-from file_organizer import FileOrganizer
 import json
 import re
 
